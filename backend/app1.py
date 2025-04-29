@@ -30,7 +30,8 @@ def load_dataset(filepath):
     return qa_pairs
 
 # Path to dataset
-DATASET_PATH = "Bigdata_cleaned.jsonl"
+DATASET_PATH = "backend/Bigdata_cleaned.jsonl"
+
 qa_data = load_dataset(DATASET_PATH)
 
 # Compute SBERT embeddings for all stored questions
