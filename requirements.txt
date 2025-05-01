@@ -3,4 +3,5 @@ flask-cors
 numpy
 sentence-transformers
 langdetect
-googletrans==4.0.0-rc1
+googletrans==4.0.0rc1
+torch
